@@ -1,0 +1,1 @@
+console.log("Gym Control website loaded successfully.");
