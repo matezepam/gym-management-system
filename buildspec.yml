@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Preparando pagina informativa de Gym Control"
+      - echo "Build completado correctamente"
+
+artifacts:
+  base-directory: website
+  files:
+    - '**/*'
