@@ -1,0 +1,5 @@
+<!DOCTYPE html><html lang="es" xmlns:th="http://www.thymeleaf.org"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Gym Control | Login</title><link rel="stylesheet" href="/css/styles.css"></head><body class="login-bg">
+<div class="login-card"><div class="logo">GYM<span>CONTROL</span></div><h1>Bienvenido</h1><p>Ingresa al sistema de gestión</p>
+<div class="alert error" th:if="${param.error}">Usuario o contraseña incorrectos.</div><div class="alert ok" th:if="${param.logout}">Sesión cerrada.</div>
+<form method="post" action="/login"><label>Usuario</label><input name="username" placeholder="Usuario" required><label>Contraseña</label><input type="password" name="password" placeholder="Contraseña" required><button type="submit">Iniciar sesión</button></form>
+<div class="demo"><b>Administrador:</b> admin / Admin123*<br><b>Cliente:</b> cliente / Cliente123*</div></div></body></html>
