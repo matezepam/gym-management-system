@@ -27,3 +27,17 @@ Sistema web para gimnasio hecho con Spring Boot 3, Java 21, Spring Security, JPA
 ## AWS RDS
 El archivo `src/main/resources/application-aws.properties` está preparado para PostgreSQL.
 Más adelante reemplaza endpoint, usuario y contraseña y ejecuta con perfil `aws`.
+
+## Sistema Web para Gimnasio
+
+Aplicación desarrollada para la gestión de clientes, membresías, pagos y asistencias.
+
+### Roles
+- Administrador
+- Cliente
+
+### Tecnologías
+- Java
+- Spring Boot
+- PostgreSQL
+- AWS
